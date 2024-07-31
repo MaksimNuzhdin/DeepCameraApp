@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/happy-face.svg</file>
+        <file>resources/sad-face.svg</file>
+        <file>resources/angry-face.svg</file>
+        <file>resources/disgust-face.svg</file>
+        <file>resources/fear-face.svg</file>
+        <file>resources/neutral-face.svg</file>
+        <file>resources/surprize-face.svg</file>
+        <file>resources/fullScreen.svg</file>
+        <file>resources/collapseVideo.svg</file>
+    </qresource>
+</RCC>
