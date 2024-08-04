@@ -71,7 +71,9 @@ Rectangle {
                     recordVideo.status ? recordVideo.status=false : recordVideo.status = true;
                 }
                 }
+
             }
+
         }
     }
     Buttons{

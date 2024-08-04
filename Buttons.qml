@@ -10,7 +10,7 @@ Rectangle
 
     signal clicked
     property  alias text: btnText.text
-    property alias gradient: myButton.gradient
+    property alias buttonGradient: myButton.gradient
     property Gradient pressedGradient: Gradient {
                 GradientStop { position: 0.0; color: "#ffffff" }
                 GradientStop { position: 0.4; color: "#61637f" }

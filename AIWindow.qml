@@ -26,7 +26,25 @@ Rectangle
         anchors.fill: settingsHolder
         Column{
             id: settingsMenuColumn
+            width: parent.width
             spacing: 10
+
+            anchors.horizontalCenter: parent.horizontalCenter
+
+            SettingsDelegate_Switch
+            {
+                width: parent.width
+
+                anchors.horizontalCenter: parent.horizontalCenter
+
+                Switcher2
+                {
+                    anchors.right: parent.right
+                    anchors.rightMargin: 20
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+            }
+
             Switcher{
                 id: faceAnalyseSwither
                 text: "Face analyse"
@@ -87,6 +105,13 @@ Rectangle
                     rnnSwichter.status ? rnnSwichter.status=false : rnnSwichter.status = true;
                 }
                 }
+            Switcher2
+            {
+                onCheckedChanged:
+                {
+                    console.log("switch2 checked", checked)
+                }
+            }
             }
         }
     }

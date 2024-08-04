@@ -34,6 +34,8 @@ qt_add_qml_module(DeepCameraApp
     QML_FILES
     QML_FILES FullScreenNewWindow.qml
     QML_FILES AIWindow.qml
+    QML_FILES Switcher2.qml
+    QML_FILES SettingsDelegate_Switch.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
